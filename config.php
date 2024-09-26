@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('localhost','root','','bandongho');
+$conn = mysqli_connect('localhost','root','','dekor');
 // session_start();
 
 ?>

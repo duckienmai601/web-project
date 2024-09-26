@@ -159,7 +159,7 @@ if (isset($_GET["layout"])) {
         <div class="container">
             <div class="row text-white g-4">
                 <div class="col-md-6 col-lg-4">
-                    <a href="index.html" class="text-uppercase text-decoration-none brand text-white">Watchshop</a>
+                    <a href="index.html" class="text-uppercase text-decoration-none brand text-white">dekor</a>
                     <p class="text-white text-muted mt-3">Sử dụng tốt nhất trên trình duyệt Chrome</p>
                 </div>
                 <!-- <div class="col-md-6 col-lg-4">
