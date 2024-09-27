@@ -12,7 +12,7 @@ if (isset($_GET['page'])) {
 
 
 
-$mysqli = new mysqli('localhost', 'root', '', 'bandongho');
+$mysqli = new mysqli('localhost', 'root', '', 'dekor');
 
 // Kiểm tra xem tên danh mục đã tồn tại chưa
 // Check if the category exists

@@ -126,7 +126,7 @@ if ($iddm != 0 && $iddm != "" && !isset($_POST['nuttimkiemnangcao'])) {
                         <li class="category-item">
                             <a <?php if (isset($_GET["id_dm"]) && $_GET["id_dm"] == $row1['id']) {
                                     echo 'style="color: blue;"';
-                                } ?> href="./index.php?layout=tatcasp&id_dm=<?php echo $row1['id']; ?>" class="category-link "><?php echo strtoupper($row1['name']); ?> </a>
+                                } ?> href="./index.php?layout=tatcasp&id_dm=<?php echo $row1['id']; ?>" class="category-link "><?php echo strtolower($row1['name']); ?> </a>
                         </li>
                     <?php
                     }

@@ -12,7 +12,7 @@ if (isset($_POST['nutsuadanhmuc'])) {
     //$tmptendanhmuc = strtolower($_POST['danhmuc']);
     $suadanhmuc = "";
     
-    $mysqli = new mysqli('localhost', 'root', '', 'bandongho');
+    $mysqli = new mysqli('localhost', 'root', '', 'dekor');
 
     // Kiểm tra xem tên danh mục đã tồn tại chưa
     $check_sql = "SELECT * FROM categories WHERE name = ?";

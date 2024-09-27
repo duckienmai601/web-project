@@ -15,7 +15,7 @@
 <body>
 
 <?php
-    $conn = new mysqli("localhost", "root", "", "bandongho");
+    $conn = new mysqli("localhost", "root", "", "dekor");
 
     $tong_khach_hang="select * from users where is_admin=0";
     $tong_khach_hang_1 = mysqli_query($conn, $tong_khach_hang);
