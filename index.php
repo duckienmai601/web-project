@@ -70,7 +70,7 @@ if (isset($_GET["layout"])) {
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container">
             <a href="./index.php?layout=trangchu" class="navbar-brand d-flex justify-content-between ">
-                <h6 style="color: black; font-size:30px">dekor</h6>
+                <img src="./img/dekorimg.png" alt="" class="img-fluid">
             </a>
             <div class="order-lg-2">
                 <form method="POST" action="./index.php?layout=tatcasp" class="btn position-relative" id="search-box">
@@ -132,7 +132,7 @@ if (isset($_GET["layout"])) {
                     <li class="nav-item px-2 py-2">
                         <a <?php if (isset($_GET["layout"]) && $_GET["layout"] == 'giohang') {
                                 echo 'style="color: blue;"';
-                            } ?> class="nav-link" href="./index.php?layout=giohang">Giỏ hàng(<?php if (isset($_SESSION['id_user'])&&isset($_SESSION['giohang'][$_SESSION['id_user']])) {
+                            } ?> class="nav-link" href="./index.php?layout=giohang"><i class="fa-solid fa-cart-shopping"></i>   (<?php if (isset($_SESSION['id_user'])&&isset($_SESSION['giohang'][$_SESSION['id_user']])) {
                                                                                                     echo array_sum($_SESSION['giohang'][$_SESSION['id_user']]);
                                                                                                 } else {
                                                                                                     echo 0;
